@@ -30,6 +30,7 @@ function liczbyp () {
 }
 
 
+
 function dzialanie () {
     if(obwynik.innerHTML === '' && this.textContent ==='-'){
         obwynik.innerHTML = '-';
