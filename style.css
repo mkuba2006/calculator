@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(34, 33, 33);
+  background-color: #0e0e0f;
   color: rgb(0, 0, 0);
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
@@ -17,6 +17,8 @@ body {
   "cyfr cyfr cyfr oblicz"
   "cyfr cyfr cyfr oblicz";
   justify-content: center;
+  position: relative;
+  margin: 10% auto;
 }
 #tablica{
 background-color: #BAD7E9;
