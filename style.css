@@ -1,6 +1,6 @@
 body {
-  background-color: #0e0e0f;
-  color: rgb(0, 0, 0);
+  background-color: #6c6cd4;
+  color: rgb(59, 58, 58);
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
 }
@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-template-columns: 70px 70px 70px 70px; 
   grid-template-rows: 70px 70px 70px 70px 70px 70px; 
-  gap: 10px;
+  gap: 5px;
   grid-template-areas:
   "header header header header"
   "oblicz oblicz oblicz oblicz"
@@ -25,6 +25,7 @@ background-color: #BAD7E9;
 grid-column: 1/ -1;
 border: none;
 font-size: 30px;
+box-shadow: #00000029 0px 10px 36px 0px, #0000000f 0px 0px 0px 1px;
 }
 .operator , .wynik{
   font-size: 30px;
@@ -36,6 +37,7 @@ font-size: 30px;
   align-items: center;
   max-height: 310px;
   text-align: center;
+  box-shadow: #00000029 0px 10px 36px 0px, #0000000f 0px 0px 0px 1px;
 }
 .liczba , #reset{
   font-size: 30px;
@@ -46,26 +48,27 @@ font-size: 30px;
   justify-content: center;
   align-items: center;
   min-height: 70px;
-  text-align: center;
+  text-align: center;box-shadow: #00000029 0px 10px 36px 0px, #0000000f 0px 0px 0px 1px;
 }
 .liczba, #reset{
-  background-color: #FCFFE7;
+  background-color: #F6F1E9;
 }
 .operator{
-  background-color: 13005A;
+  background-color: #DBDFEA;
 }
 .wynik{
   grid-row: 4 / 9; 
-  grid-column: 4
+  grid-column: 4;
+  max-height: 295px;
 }
 .display {
   grid-column: 1 / span 4;
   grid-row: 1 / span 2;
   min-height: 20%;
   max-height: min-content;
-  background-color:rgba(255, 255, 255, 0.616);
+  background-color:#2D2727;
   box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   word-break: break-all;
   justify-content: left;
   align-items: center;
@@ -73,6 +76,7 @@ font-size: 30px;
   flex-direction: row;
   font-weight: 900;
   padding-left: 20px;
+  font-size: 30px;
 }
 
 .currentNumber {
