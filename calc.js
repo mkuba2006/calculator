@@ -12,7 +12,7 @@ buttons.forEach((el) => {
 const tablica = document.getElementById("tablica");
 const operatory = document.querySelectorAll(".operator");
 const liczby = document.querySelectorAll(".liczba");
-const reset = document.getElementById("reset");
+const reset = document.getElementById("clear");
 const wynik = document.querySelector(".wynik");
 
 const obwynik = document.querySelector('.curNumber')

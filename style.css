@@ -39,7 +39,7 @@ box-shadow: #00000029 0px 10px 36px 0px, #0000000f 0px 0px 0px 1px;
   text-align: center;
   box-shadow: #00000029 0px 10px 36px 0px, #0000000f 0px 0px 0px 1px;
 }
-.liczba , #reset{
+.liczba , #clear{
   font-size: 30px;
   background-color: #EB455F;
   border: none;
@@ -50,7 +50,7 @@ box-shadow: #00000029 0px 10px 36px 0px, #0000000f 0px 0px 0px 1px;
   min-height: 70px;
   text-align: center;box-shadow: #00000029 0px 10px 36px 0px, #0000000f 0px 0px 0px 1px;
 }
-.liczba, #reset{
+.liczba, #clear{
   background-color: #F6F1E9;
 }
 .operator{
